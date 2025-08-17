@@ -6,7 +6,6 @@
 
 ```bash
 ansible host-pattern -m module [-a 'module arguments'] [-i inventory]
-
 ```
 
 <span style="color: rgb(230, 126, 35);">**Example:**</span>
@@ -15,7 +14,6 @@ ansible host-pattern -m module [-a 'module arguments'] [-i inventory]
 ansible all -m ping
 # For sudo, use logname command to get the original username
 ansible all -m ping -u $(logname)
-
 ```
 
 To list the matching managed hosts without executing anything:
