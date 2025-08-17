@@ -22,4 +22,5 @@ To list the matching managed hosts without executing anything:
 
 ```bash
 ansible --list-hosts
+```
 
